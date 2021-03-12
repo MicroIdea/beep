@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/faiface/beep"
+	"github.com/microidea/beep"
 )
 
 func TestResample(t *testing.T) {

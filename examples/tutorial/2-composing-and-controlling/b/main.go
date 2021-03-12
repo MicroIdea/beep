@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/faiface/beep"
-	"github.com/faiface/beep/mp3"
-	"github.com/faiface/beep/speaker"
+	"github.com/microidea/beep"
+	"github.com/microidea/beep/mp3"
+	"github.com/microidea/beep/speaker"
 )
 
 func main() {

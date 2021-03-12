@@ -4,8 +4,8 @@ package vorbis
 import (
 	"io"
 
-	"github.com/faiface/beep"
 	"github.com/jfreymuth/oggvorbis"
+	"github.com/microidea/beep"
 	"github.com/pkg/errors"
 )
 

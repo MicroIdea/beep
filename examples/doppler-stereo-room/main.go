@@ -7,11 +7,11 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/faiface/beep"
-	"github.com/faiface/beep/effects"
-	"github.com/faiface/beep/mp3"
-	"github.com/faiface/beep/speaker"
 	"github.com/gdamore/tcell"
+	"github.com/microidea/beep"
+	"github.com/microidea/beep/effects"
+	"github.com/microidea/beep/mp3"
+	"github.com/microidea/beep/speaker"
 )
 
 func multiplyChannels(left, right float64, s beep.Streamer) beep.Streamer {

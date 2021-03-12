@@ -4,8 +4,8 @@ package speaker
 import (
 	"sync"
 
-	"github.com/faiface/beep"
 	"github.com/hajimehoshi/oto"
+	"github.com/microidea/beep"
 	"github.com/pkg/errors"
 )
 
