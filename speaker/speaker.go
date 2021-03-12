@@ -43,7 +43,7 @@ func Init(sampleRate beep.SampleRate, bufferSize int) error {
 	}
 	player = context.NewPlayer()
 
-	done = make(chan struct{})
+	done = make(chan struct{}, 1)
 
 	go func() {
 		for {
